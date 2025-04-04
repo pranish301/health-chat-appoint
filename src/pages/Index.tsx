@@ -65,6 +65,9 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="space-y-6 animate-fade-in">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Your Health, Your Schedule</h1>
+                <p className="text-lg md:text-xl opacity-90 italic">
+                  "Health is not valued till sickness comes."
+                </p>
                 <p className="text-lg md:text-xl opacity-90">
                   Book appointments with top healthcare specialists and chat with them directly through our secure platform.
                 </p>
@@ -90,9 +93,9 @@ const Index = () => {
               </div>
               <div className="hidden md:block">
                 <img 
-                  src="/placeholder.svg" 
-                  alt="Healthcare professionals" 
-                  className="w-full max-w-md mx-auto rounded-lg shadow-xl"
+                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  alt="Doctor and patient consultation" 
+                  className="w-full max-w-md mx-auto rounded-lg shadow-xl object-cover h-80"
                 />
               </div>
             </div>
