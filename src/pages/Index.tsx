@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -65,11 +64,8 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="space-y-6 animate-fade-in">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Your Health, Your Schedule</h1>
-                <p className="text-lg md:text-xl opacity-90 italic">
-                  "Health is not valued till sickness comes."
-                </p>
                 <p className="text-lg md:text-xl opacity-90">
-                  Book appointments with top healthcare specialists and chat with them directly through our secure platform.
+                  Schedule appointments with top specialists and take control of your healthcare journey.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button 
