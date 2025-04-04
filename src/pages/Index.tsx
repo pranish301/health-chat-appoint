@@ -158,7 +158,7 @@ const Index = () => {
                     Connect with a healthcare professional right now through our chat service.
                   </p>
                   <Button 
-                    className="w-full bg-health-500 hover:bg-health-600"
+                    className="w-full bg-health-500 hover:bg-health-600 text-white"
                     onClick={() => navigate('/chat')}
                   >
                     <MessageCircle className="mr-2 h-4 w-4" />
